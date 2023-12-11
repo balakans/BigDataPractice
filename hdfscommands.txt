@@ -1,0 +1,963 @@
+    1  python
+    2  su root
+    3  sudo vi /etc/hosts
+    4  su root
+    5  pwd
+    6  locate
+    7  locate java
+    8  which java
+    9  whereis java
+   10  yum install locate
+   11  sudo su
+   12  find
+   13  find .-exec java
+   14  find java
+   15  find . -exec java
+   16  find . -exec search java
+   17  find . | search java
+   18  pwd
+   19  ls -lart filename
+   20  jps
+   21  sudo yum install jps
+   22  sudo yum list java*devel*
+   23  sudo yum install java-1.8.0-openjdk-devel.x86_64
+   24  java -version
+   25  yum list java*devel*
+   26  sudo yum install java-1.8.0-openjdk-devel
+   27  sudo yum install java-1.8.0-openjdk*
+   28  dhclient -v
+   29  vi /etc/init.d
+   30  cd /etc/init.d/
+   31  sudo vi net-autostart
+   32  chmod 755 net-autostart
+   33  sudo chmod 755 net-autostart
+   34  chkconfig --add net-autostart
+   35  sudo chkconfig --add net-autostart
+   36  reboot
+   37  ping google.com
+   38  sudo yum list java*devel*
+   39  sudo yum install java-1.8.0-openjdk-devel
+   40  jps
+   41  exit
+   42  cd /home/hduser/install/ 
+   43  tar xvzf hadoop-2.7.1.tar.gz
+   44  sudo mv hadoop-2.7.1 /usr/local/hadoop
+   45  sudo chown -R hduser:hadoop /usr/local/hadoop 
+   46  sudo mkdir -p /usr/local/hadoop_store/tmp
+   47  sudo mkdir -p /usr/local/hadoop_store/hdfs/namenode 
+   48  sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode
+   49  sudo mkdir -p /usr/local/hadoop_store/hdfs/secondarynamenode 
+   50  sudo chown -R hduser:hadoop /usr/local/hadoop_store
+   51  cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc/hadoop/mapred-site.xml
+   52  sudo vi /usr/local/hadoop/etc/hadoop/mapred-site.xml
+   53  sudo vi /usr/local/hadoop/etc/hadoop/core-site.xml
+   54  sudo vi /usr/local/hadoop/etc/hadoop/hdfs-site.xml
+   55  sudo vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
+   56  hadoop namenode -format
+   57  ls /usr/local/hadoop_store/hdfs/namenode/
+   58  hadoop namenode -format
+   59  chmod -R 777 /usr/local/hadoop_store/hdfs/namenode
+   60  sudo chmod 777 -R /usr/local/hadoop_store/hdfs/namenode
+   61  hadoop namenode -format
+   62  start-all.sh
+   63  jps
+   64  stop-dfs.sh
+   65  jps
+   66  cd ~
+   67  ssh-keygen
+   68  cd .ssh
+   69  ls -lart
+   70  cat id_rsa.pub
+   71  cd ~
+   72  sudo vi /etc/hosts
+   73  sudo vi /etc/sysconfig/network
+   74  hostname
+   75  sudo vi /etc/hosts
+   76  cd .ssh
+   77  ls -lart
+   78  cat id_rsa.pub >> authorized_keys
+   79  chmod 700 authorized_keys
+   80  cd ~
+   81  ssh localhost
+   82  hostname
+   83  reboot
+   84  cd /home/hduser/install/ 
+   85  tar xvzf hadoop-2.7.1.tar.gz
+   86  sudo mv hadoop-2.7.1 /usr/local/hadoop
+   87  sudo chown -R hduser:hadoop /usr/local/hadoop 
+   88  sudo mkdir -p /usr/local/hadoop_store/tmp
+   89  sudo mkdir -p /usr/local/hadoop_store/hdfs/namenode 
+   90  sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode
+   91  sudo mkdir -p /usr/local/hadoop_store/hdfs/secondarynamenode 
+   92  sudo chown -R hduser:hadoop /usr/local/hadoop_store
+   93  cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc/hadoop/mapred-site.xml
+   94  sudo vi /usr/local/hadoop/etc/hadoop/mapred-site.xml
+   95  sudo vi /usr/local/hadoop/etc/hadoop/core-site.xml
+   96  sudo vi /usr/local/hadoop/etc/hadoop/hdfs-site.xml
+   97  sudo vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
+   98  hadoop namenode -format
+   99  ls /usr/local/hadoop_store/hdfs/namenode/
+  100  hadoop namenode -format
+  101  chmod -R 777 /usr/local/hadoop_store/hdfs/namenode
+  102  sudo chmod 777 -R /usr/local/hadoop_store/hdfs/namenode
+  103  hadoop namenode -format
+  104  start-all.sh
+  105  jps
+  106  stop-dfs.sh
+  107  jps
+  108  cd ~
+  109  ssh-keygen
+  110  cd .ssh
+  111  ls -lart
+  112  cat id_rsa.pub
+  113  cd ~
+  114  sudo vi /etc/hosts
+  115  sudo vi /etc/sysconfig/network
+  116  hostname
+  117  sudo vi /etc/hosts
+  118  cd .ssh
+  119  ls -lart
+  120  cat id_rsa.pub >> authorized_keys
+  121  chmod 700 authorized_keys
+  122  cd ~
+  123  ssh localhost
+  124  hostname
+  125  reboot
+  126  hostname
+  127  start-all.sh
+  128  jps
+  129  stop-all.sh
+  130  start-all.sh
+  131  jps
+  132  stop-all.sh
+  133  jps
+  134  start-all.sh
+  135  jps
+  136  stop-all.sh
+  137  hadoop namenode -format
+  138  start-all.sh
+  139  jps
+  140  cd /usr/local/hadoop/logs
+  141  ls -lart
+  142  vi hadoop-hduser-datanode-localhost.localdomain.log
+  143  stop-all.sh
+  144  jps
+  145  chmod 777 -R /usr/local/hadoop
+  146  chmod 775 -R /usr/local/hadoop
+  147  start-all.sh
+  148  jps
+  149  ls -lart
+  150  date
+  151  vi hadoop-hduser-datanode-localhost.localdomain.log
+  152  stop-all.sh
+  153  jps
+  154  start-all.sh
+  155  jps
+  156  ls -lart
+  157  vi hadoop-hduser-datanode-localhost.localdomain.log
+  158  ls -lart /usr/local/hadoop_store/hdfs/datanode/
+  159  stop-all.sh
+  160  jps
+  161  sqoop create-hive-table --connect jdbc:mysql://127.0.0.1/custdb --username root --password Root123$ --table customer --hive-table retail.customer; 
+  162  hadoop fs -rmr /user/hduser/customer 
+  163   
+  164  sqoop import --connect jdbc:mysql://127.0.0.1/custdb --username root --password Root123$ --table customer --hive-import -hive-table retail.customer_data -m 1
+  165  sqoop import --connect jdbc:mysql://127.0.0.1/custdb --username root --password Root123$ --table customer  --driver com.mysql.cj.jdbc.Driver --hive-import -hive-table retail.customer_data -m 1
+  166  sqoop import --connect jdbc:mysql://127.0.0.1/custdb --username root --password Root123$ --table customer  --hive-import -hive-table retail.customer_data -m 1
+  167  hduser
+  168  ifconfig
+  169  cd /home/hduser/install/
+  170  tar xvzf hbase-0.98.4-hadoop2-bin.tar.gz
+  171  sudo mv hbase-0.98.4-hadoop2 /usr/local/hbase 
+  172  sudo chown -R hduser:hadoop /usr/local/hbase
+  173  Zookeeper Installation
+  174  tar xvzf zookeeper-3.4.6.tar.gz
+  175  sudo mv zookeeper-3.4.6 /usr/local/zookeeper
+  176  sudo chown -R hduser:hadoop /usr/local/zookeeper
+  177  Phoenix Installation
+  178  cd /home/hduser/install
+  179  tar xvzf apache-phoenix-4.8.0-HBase-0.98-bin.tar.gz 
+  180  sudo mv apache-phoenix-4.8.0-HBase-0.98-bin /usr/local/phoenix
+  181  sudo chown -R hduser:hadoop /usr/local/phoenix
+  182  cd /usr/local/zookeeper/conf 
+  183  mv zoo_sample.cfg zoo.cfg
+  184  sed -i 's/dataDir=\/tmp\/zookeeper/dataDir=\/usr\/local\/zookeeper\/data/g' zoo.cfg
+  185  mkdir /usr/local/zookeeper/data
+  186  cd /usr/local/zookeeper/bin
+  187  ./zkServer.sh start
+  188  cd /usr/local/hbase/conf
+  189  echo 'export HBASE_MANAGES_ZK=false' >> hbase-env.sh
+  190  echo 'export HBASE_CLASSPATH=/usr/local/hbase/lib' >> hbase-env.sh
+  191  cd /usr/local/phoenix/
+  192  cp phoenix-hive-4.8.0-HBase-0.98.jar /usr/local/hbase/lib/
+  193  cp phoenix-4.8.0-HBase-0.98-client.jar /usr/local/hbase/lib/
+  194  cd /usr/local/hive/conf/ 
+  195  mv hive-env.sh.template hive-env.sh 
+  196  echo "export HIVE_AUX_JARS_PATH=/usr/local/hbase/lib" >> hive-env.sh
+  197  cp /usr/local/hbase/lib/hbase-common-0.98.4-hadoop2.jar /usr/local/hive/lib/ 
+  198  cp /usr/local/hbase/lib/zookeeper-3.4.6.jar /usr/local/hive/lib/ 
+  199  cp /usr/local/hbase/lib/guava-12.0.1.jar /usr/local/hive/lib/ 
+  200  cp /usr/local/hbase/lib/hbase-protocol-0.98.4-hadoop2.jar /usr/local/hive/lib/ 
+  201  cp /usr/local/hbase/lib/hbase-server-0.98.4-hadoop2.jar /usr/local/hive/lib/
+  202  cp /home/hduser/install/antlr-runtime-3.5.2.jar /usr/local/hive/lib/
+  203  cp /home/hduser/install/phoenix-hive-4.8.0-HBase-0.98.jar /usr/local/hive/lib/
+  204  cp /home/hduser/install/twill-discovery-api-0.14.0.jar /usr/local/hive/lib/
+  205  cp /home/hduser/install/twill-zookeeper-0.14.0.jar /usr/local/hive/lib/
+  206  cp /home/hduser/install/phoenix-hive-4.8.0-HBase-0.98.jar /usr/local/hive/lib/
+  207  vi /usr/local/hbase/conf/hbase-site.xml
+  208  start-hbase.sh
+  209  hbase shell
+  210  sqlline.py localhost
+  211  hadoop -namenode format
+  212  hadoop namenode -format
+  213  start-all.sh
+  214  jps
+  215  stop-all.sh
+  216  sudo groupadd hadoop
+  217  sudo chown -R hduser:hadoop /usr/local/hadoop
+  218  sudo chown -R hduser:hadoop /usr/local/hadoop_store
+  219  hadoop namenode -format
+  220  start-all.sh
+  221  jps
+  222  hadoop fs -mkdir -p /user/hduser
+  223  hadoop fs -chown -R hduser:hadoop /user/hduser
+  224  mysql
+  225  cat /etc/issue
+  226  version
+  227  sudo wget https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm
+  228  sudo md5sum mysql80-community-release-el7-3.noarch.rpm
+  229  sudo rpm –ivh mysql80-community-release-el7-3.noarch.rpm
+  230  sudo rpm -ivh mysql80-community-release-el7-3.noarch.rpm
+  231  sudo yum install mysql-server
+  232  sudo systemctl start mysqld
+  233  sudo systemctl start mysqlsudo systemctl status mysqldd
+  234  sudo systemctl status mysqld
+  235  sudo grep ‘temporary password’ /var/log/mysqld.log
+  236  sudo grep 'temporary password' /var/log/mysqld.log
+  237  sudo service mysqld start
+  238  mysql -u root
+  239  mysql -u root -p
+  240  mysql -u hiveuser -p
+  241  sudo service mysqld stop
+  242  mysql
+  243  sudo service mysqld start
+  244  mysql -u root -p
+  245  cp /home/hduser/hive/hive-site_rms_transction.xml /usr/local/hive/conf/hive-site.xml
+  246  cp -p /home/hduser/install/mysql-connector-java.jar /usr/local/hive/lib/  
+  247  hive --service metastore
+  248  mkdir important
+  249  cd important/
+  250  vi passwords.txt
+  251  cd ~/install
+  252  tar xvzf sqoop-1.4.6.bin__hadoop-2.0.4-alpha.tar.gz
+  253  sudo mv sqoop-1.4.6.bin__hadoop-2.0.4-alpha /usr/local/sqoop
+  254  echo HADOOP_COMMON_HOME
+  255  echo $HADOOP_COMMON_HOME
+  256  echo $HADOOP_MAPRED_HOME
+  257  cd ~
+  258  cat important/passwords.txt 
+  259  sqoop list-databases --connect jdbc:mysql://localhost --username root --password root; 
+  260  cp -p ~/install/mysql-connector-java.jar /usr/local/sqoop/
+  261  sqoop list-databases --connect jdbc:mysql://localhost --username root --password root; 
+  262  sqoop list-databases --connect jdbc:mysql://localhost:3306 --username root --password root; 
+  263  sqoop list-databases --connect "jdbc:mysql://localhost:3306" --username root --password root --driver ; 
+  264  sqoop list-databases --connect "jdbc:mysql://localhost:3306" --username root --password root ; 
+  265  hostname
+  266  sqoop list-databases --connect "jdbc:mysql://localhost.localadmin:3306" --username root --password root ; 
+  267  hostname
+  268  sqoop list-databases --connect "jdbc:mysql://localhost:3306" --username root --password root ; 
+  269  cd install/
+  270  cp -p ~/install/mysql-connector-java.jar /usr/local/sqoop/ 
+  271  sqoop list-databases --connect "jdbc:mysql://localhost:3306" --username root --password root ; 
+  272  sqoop list-databases --connect "jdbc:mysql://localhost:3306" --username root --password Root@123 ; 
+  273  sqoop list-databases --connect "jdbc:mysql://localhost:3306" --username root --password Root123$ ; 
+  274  sqoop list-databases --connect jdbc:mysql://localhost --username root --password Root123$ ; 
+  275  cd ../hive
+  276  ls -lart
+  277  vi hive-site_rms_transction.xml
+  278  cd /home/hduser/install/ 
+  279  tar xvzf apache-hive-1.2.2-bin.tar.gz
+  280  sudo mv apache-hive-1.2.2-bin /usr/local/hive
+  281  hadoop fs -mkdir -p /user/hive/warehouse/ 
+  282  hadoop fs -chmod g+w /user/hive/warehouse 
+  283  hadoop fs -mkdir -p /tmp
+  284  hadoop fs -chmod g+w /tmp 
+  285  create database retail; 
+  286  create database if not exists retail_tmp
+  287  comment 'retail database for holding retail cust info'
+  288  location '/user/hduser/hivestore'
+  289  with dbproperties ('Created by' = 'Inceptez', 'Created on' = '2021-01-01');
+  290  describe database retail_tmp;
+  291  hive
+  292  vi /home/hduser/hive/hive-site_rms_transction.xml
+  293  cp /home/hduser/hive/hive-site_rms_transction.xml /usr/local/hive/conf/hive-site.xml
+  294  hive
+  295  jps
+  296  stop-all.sh
+  297  jps
+  298  stop-hbase.sh
+  299  jps
+  300  zkServer.sh stop
+  301  jps
+  302  hadoop fs -rmr /
+  303  sudo rm -r /usr/local/hadoop_store
+  304  sudo rm -r /usr/local/hadoop
+  305  ls /usr/local
+  306  sudo rm -r /usr/local/hbase
+  307  sudo rm -r /usr/local/hive
+  308  sudo rm -r /usr/local/pheonix
+  309  sudo rm -r /usr/local/phoenix
+  310  sudo rm -r /usr/local/sqoop
+  311  sudo rm -r /usr/local/zookeeper
+  312  ls -lart /usr/local
+  313  df -k
+  314  df -kh .
+  315  cd /tmp
+  316  ls -lart
+  317  du -kh .
+  318  rm *
+  319  ls -lart
+  320  sudo rm *
+  321  ls -lart
+  322  rm -r *
+  323  rm -rf *
+  324  df -kh .
+  325  du -kh .
+  326  cd ~
+  327  ls -lart
+  328  rm mysql80-community-release-el7-3.noarch.rpm
+  329  ls -lart
+  330  cd Downloads/
+  331  ls -lart
+  332  cd ..
+  333  ls -lart
+  334  cd install/
+  335  ls -lart
+  336  rm mysql-connector-java_old.jar
+  337  df -kh .
+  338  exit
+  339  ifconfig
+  340  sudo su
+  341  fdisk -l
+  342  pvcreate /dev/sda3
+  343  sudo su
+  344  df -kh .
+  345  df
+  346  sudo su
+  347  pwd
+  348  ls -l
+  349  vi customer.java 
+  350  ls
+  351  ls -ltr
+  352  cd wd32dir/
+  353  ls -ltr
+  354  touch skc
+  355  > skc
+  356  > skc1
+  357  ls -ltr
+  358  echo "" > skc1
+  359  ls -ltr
+  360  cat password 
+  361  cat wd32file.txt 
+  362  grep linux wd32file.txt 
+  363  wc -l wd32file.txt 
+  364  wc -l password 
+  365  cat password 
+  366  ls -F wd32file.txt | grep /
+  367  ls -F wd32file.txt | grep 
+  368  cd ..
+  369  ls -F wd32dir | grep /
+  370  ls -R wd32dir 
+  371  ls -F wd32dir | grep -v /
+  372  ls -R wd32dir | grep -v /
+  373  ls -R wd32dir | grep /
+  374  exit
+  375  pwd
+  376  ls -lart
+  377  ls -lrt
+  378  ls -lt
+  379  cat customer.java 
+  380  ls -lt
+  381  clear
+  382  pwd
+  383  mkdir wd32dir/dir2
+  384  mkdir wd32dir
+  385  mkdir wd32dir/dir1
+  386  mkdir wd32dir/dir2
+  387  echo hello > wd32dir/file1
+  388  echo hello > wd32dir/file2
+  389  echo hello > wd32dir/file3.txt
+  390  ls -lrtR wd32dir/
+  391  ls -F wd32dir/
+  392  ls -F wd32dir
+  393  ls -lrtR wd32dir
+  394  ls -F
+  395  ls -l
+  396  du -kh wd32dir/
+  397  ls -F wd32dir | grep /
+  398  ls -lrtR wd32dir | grep /
+  399  ls -lrtR wd32dir | grep -v /
+  400  ls -F wd32dir | grep -v /
+  401  ls -R
+  402  ls -R wd32dir/
+  403  ls -R wd32dir/ | grep -v /
+  404  ls -R wd32dir/ | grep /
+  405  ls -R wd32dir/ | grep -v /
+  406  ls -F wd32dir | grep -v / | wc -l
+  407  ls -F wd32dir | grep -v / | wc
+  408  ls -F wd32dir | grep / | wc -l
+  409  ls
+  410  ls -F wd32dir/
+  411  mkdir wd32dir/dir1/sDir1
+  412  cd wd32dir/
+  413  ls
+  414  touch skc
+  415  touch skc.txt
+  416  ls
+  417  ls -l
+  418  vi wd32file.txt
+  419  cat wd32file.txt 
+  420  echo "Hello, Good Morningcat wd32file.txt 1" > fileInHDD.txt
+  421  cat fileInHDD.txt 
+  422  ls -lrt > listoffile_wd32dir.txt
+  423  cat listoffile_wd32dir.txt 
+  424  ls > file.txt
+  425  ls | wc -l >> file.txt
+  426  cat file.txt 
+  427  cp -p file.txt file1.txt
+  428  cat file1.txt 
+  429  ls -l
+  430  touch skc
+  431  ls -l
+  432  ls -ltr
+  433  cat wd32file.txt
+  434  vi wd32file.txt 
+  435  cat wd32file.txt 
+  436  vi wd32file.txt 
+  437  grep important wd32file.txt 
+  438  grep linux wd32file.txt 
+  439  vi wd32file.txt 
+  440  wc -l wd32file.txt 
+  441  echo -n "password123$" > password
+  442  ls -ltr
+  443  history
+  444  Ifconfig
+  445  IFConfig
+  446  ifconfig
+  447  cd wd32dir/
+  448  ls -ltr
+  449  vi wd32file.txt 
+  450  pwd
+  451  cd wd32dir/
+  452  pwd
+  453  ls -ltr
+  454  vi wd32file.txt 
+  455  cd wd32dir/
+  456  ls -ltr
+  457  vi wd32file.txt 
+  458  wc -l
+  459  wc -l wd32file.txt 
+  460  grep -n linux wd32file.txt 
+  461  cd ..
+  462  ls 
+  463  ls -lart
+  464  echo "export TRAINER=Irfan" ~/.bashrc 
+  465  echo $TRAINER
+  466  echo "export TRAINER=Irfan" >> ~/.bashrc 
+  467  echo $TRAINER
+  468  vi ~/.bashrc
+  469  echo $TRAINER
+  470  cat ~/.bashrc
+  471  echo $Trainer
+  472  echo TRAINER
+  473  echo $TRAINER
+  474  echo $COMPANY
+  475  echo $TRAINER
+  476  vi ~/.bashrc
+  477  cd wd32dir/
+  478  ls -ltr
+  479  vi wd32file.txt 
+  480  sed -i 1d wd32file.txt 
+  481  head -1 wd32file.txt 
+  482  head wd32file.txt 
+  483  sed -i 1d wd32file.txt 
+  484  head wd32file.txt 
+  485  cd ..
+  486  ls -lart
+  487  wc -l customer.java 
+  488  wc -l ~/.bash_history 
+  489  cd wd32dir/
+  490  cp ~/hive/data/cust
+  491  cp ~/customer.java 
+  492  cp -p ~/customer.java 
+  493  cp ~/customer.java  customer.java
+  494  ls -lrt
+  495  customer.java >> customer.java
+  496  cat customer.java ?? customer.java 
+  497  cat customer.java >> customer.java 
+  498  cat customer.java 
+  499  cat ~/hive/data/cust
+  500  cd ~/hive/data/
+  501  ls
+  502  cat custs
+  503  cd ..
+  504  cd wd32dir/
+  505  cp -p ~/hive/data/custs custs
+  506  ls
+  507  ls -ltr
+  508  wc -l custs 
+  509  cp -p custs custs1
+  510  ls -ltr
+  511  cat custs >> custs1
+  512  wc -l custs1
+  513  cat -n custs1
+  514  view custs1
+  515  more custs1
+  516  head -10 custs1 | tail -5 custs1
+  517  vi custs1
+  518  head -10 custs1 | tail -5 custs1
+  519  vi wd32file.txt 
+  520  vi testfile.txt
+  521  head -15 testfile.txt  | tail -5 testfile.txt 
+  522  vi testfile.txt 
+  523  head -10 testfile.txt  | tail -5 testfile.txt 
+  524  head -10 testfile.txt  | tail -5
+  525  vi testfile.txt 
+  526  head -20 testfile.txt | tail -5
+  527  vi testfile.txt 
+  528  head -15 testfile.txt | tail -6
+  529  vi wd32file.txt 
+  530  history
+  531  ls -lrt
+  532  cd /
+  533  pwd
+  534  cd /home/hduser/
+  535  ls
+  536  cd ..
+  537  ls
+  538  cd ..
+  539  ls
+  540  cd home/
+  541  ls
+  542  cd hduser/
+  543  cd wd32dir/
+  544  ls
+  545  cd dir2
+  546  ls
+  547  cd .
+  548  cd ..
+  549  cd dir1
+  550  ls
+  551  cd sdi
+  552  cd sDir1/
+  553  ls
+  554  cd /home/hduser/wd32dir/wd32file.txt wd32file.txt
+  555  cp /home/hduser/wd32dir/wd32file.txt wd32file.txt
+  556  ls
+  557  cp wd32file.txt wd32file_v1.txt 
+  558  ls
+  559  ls -ltr
+  560  cd ..
+  561  cp -p wd32file.txt dir1/sDir1/wd32file_v2.txt
+  562  ls
+  563  ls -lrt
+  564  cd dir1/sDir1/
+  565  ls -lrt
+  566  mv wd32file_v2.txt /home/hduser/wd32dir/
+  567  cd ..
+  568  ls -lrt
+  569  ls -ltr
+  570  rm file1
+  571  ls -ltr
+  572  cd dir2
+  573  ls
+  574  cp -p /home/hduser/wd32dir/file3.txt file3.txt
+  575  ls
+  576  cd ..
+  577  ls
+  578  rm /home/hduser/wd32dir/dir2/file3.txt 
+  579  cd dir2/
+  580  ls
+  581  cd ..
+  582  cd dir1/sDir1/
+  583  ls
+  584  rm wd32file*.txt
+  585  ls
+  586  cd ..
+  587  ls
+  588  more wd32file.txt 
+  589  view wd32file.txt 
+  590  grep linux wd32file.txt | wc -l
+  591  grep Linux wd32file.txt | wc -l
+  592  grep L wd32file.txt | wc -x
+  593  grep L wd32file.txt | wc -c
+  594  grep L wd32file.txt | wc -w
+  595  grep L wd32file.txt | wc -lc
+  596  grep L wd32file.txt | wc -lwc
+  597  cd ..
+  598  ls -a
+  599  cd .bashrc
+  600  cd ~/.bashrc
+  601  ls -a
+  602  cd .bashrc
+  603  cd /.bashrc
+  604  cat .bashrc
+  605  echo $COMPANY
+  606  echo $TRAINER
+  607  echo "TRAINER1=SWE" >> .bashrc
+  608  cat .bashrc
+  609  echo "export LISTDETAIL=ls -ltr" >> .bashrc
+  610  cat .bashrc
+  611  echo $LISTDETAIL
+  612  vi .bashrc
+  613  cd /home/hduser/wd32dir/
+  614  ls
+  615  vi wd32file.txt 
+  616  ls -ltr
+  617  sudo adduser bala
+  618  ls -ltr
+  619  ls -a
+  620  pwd
+  621  cd ..
+  622  ls -a
+  623  ls -ltr
+  624  cd bala/
+  625  ls
+  626  cd hduser/
+  627  ls
+  628  ls -a
+  629  cd ..
+  630  cd -a
+  631  ls -a
+  632  cd hduser/
+  633  cd ..
+  634  ls
+  635  cd etc/
+  636  ls
+  637  cat passwd
+  638  ls
+  639  cd ..
+  640  cd home/hduser/
+  641  cd /
+  642  ls
+  643  cd usr/
+  644  ls
+  645  cd etc
+  646  ls
+  647  cd ..
+  648  cd bin
+  649  ls
+  650  cd ..
+  651  cd sbin/
+  652  ls
+  653  man
+  654  man ls
+  655  cat hosts
+  656  hosts
+  657  cd ..
+  658  cd etc/
+  659  hosts
+  660  cat hosts
+  661  cd ..
+  662  cd usr/local/
+  663  ls
+  664  cd /
+  665  cd ~
+  666  pwd
+  667  cd /
+  668  etc
+  669  cd etc/
+  670  ls
+  671  cd group
+  672  cat group
+  673  cat sudoers
+  674  df
+  675  df -h
+  676  /
+  677  pwd
+  678  ~
+  679  cd /
+  680  pwd
+  681  cd ~
+  682  pwd
+  683  cd ~
+  684  cd .
+  685  cd /
+  686  cd ~
+  687  cd /
+  688  cd .
+  689  cd ~
+  690  cd /
+  691  pwd
+  692  cd ~
+  693  ls
+  694  cd wd32dir/
+  695  ls
+  696  cat testfile.txt 
+  697  ls
+  698  cd ..
+  699  cd /hive/data/
+  700  cd /home/hduser/hive/data/
+  701  ls
+  702  head -10 custs
+  703  cd..
+  704  cd ~
+  705  head -10 /home/hduser/hive/data/custs > cust1.txt
+  706  ls
+  707  cat cust1.txt 
+  708  tail -10 /home/hduser/hive/data/custs > cust2.txt
+  709  cat cust2.txt 
+  710  ls
+  711  history
+  712  vi samplefile.txt
+  713  ls
+  714  vi samplefile.txt 
+  715  echo cust2.txt > custmerged.txt
+  716  ls
+  717  echo cust1.txt >> custmerged.txt 
+  718  cat custmerged.txt 
+  719  rm custmerged.txt 
+  720  cust2.txt > custmerged.txt
+  721  ls
+  722  rm custmerged.txt
+  723  ls
+  724  cat cust2.txt > custmerged.txt
+  725  cat cust1.txt >> custmerged.txt
+  726  cat custmerged.txt 
+  727  view cust2.txt > custmergred1.txt
+  728  history
+  729  echo $welcomemessage
+  730  echo $welcomemessage3
+  731  cat .bashrc
+  732  echo $welcomemessage3
+  733  ls
+  734  wc -l custmerged.txt 
+  735  cat custmerged.txt 
+  736  wc -l custmerged.txt >> custmerged.txt 
+  737  cat custmerged.txt 
+  738  echo custno,firstname,lastname,age,profession > temp1.txt
+  739  cat temp1.txt 
+  740  cat custmerged.txt >> temp1.txt 
+  741  cat temp1.txt 
+  742  mv temp1.txt custmerged.txt 
+  743  ls
+  744  cat custmerged.txt 
+  745  grep pilot custmerged.txt | wc -w
+  746  grep Pilot custmerged.txt | wc -w
+  747  grep Pilot custmerged.txt | wc -l
+  748  sed -i '%s/Pilot/Aircraft Pilot/g' custmerged.txt 
+  749  sed -i 's/Pilot/Aircraft Pilot/g' custmerged.txt 
+  750  cat custmerged.txt 
+  751  wc -lc custmerged.txt
+  752  man sed
+  753  man ls
+  754  ls -l
+  755  ls -lrt
+  756  ls -lt
+  757  ls -lrt
+  758  ls -lrt | tail -1
+  759  cp -p custmerged.txt custmergedcopied.txt
+  760  ls -lrt
+  761  ls -lrt | tail -2
+  762  history
+  763  ls
+  764  cd /
+  765  ls
+  766  cd ~
+  767  ls
+  768  cd /
+  769  cd ~
+  770  cd /tmp/
+  771  mkdir ~/src/custdata
+  772  mkdir -p ~/src/custdata
+  773  cd /home/hduser/src/custdata/
+  774  cd /home
+  775  cd hduser/src/custdata
+  776  cp /home/hduser/custmerged.txt .
+  777  ls
+  778  cp /home/hduser/custmerged.txt
+  779  cd -
+  780  cd hduser/src
+  781  mv custdata customerdata
+  782  ls
+  783  mv customerdata /tmp/custdata/process
+  784  man mv
+  785  mv -p customerdata /tmp/custdata/process
+  786  mv -f customerdata /tmp/custdata/process
+  787  mkdir -p /tmp/custdata/process
+  788  mv customerdata/ /tmp/custdata/process
+  789  ls
+  790  cd /tmp/custdata/process/
+  791  ls
+  792  mv /tmp/custdata/process/customerdata/ ~/src/
+  793  ls
+  794  mv ~/src/customerdata/custmerged.txt .
+  795  ls
+  796  cd ..
+  797  rm process/
+  798  rm -R process/
+  799  ls
+  800  cd /
+  801  mkdir -p ~/src/custdata
+  802  cd ~/src/custdata/
+  803  ls
+  804  cp /home/hduser/custmerged.txt .
+  805  cd..
+  806  cd ..
+  807  mv custdata/ /tmp/custdata/process
+  808  cd /tmp/custdata/
+  809  ls
+  810  cd process/
+  811  ls
+  812  touch success
+  813  ls
+  814  ls -l
+  815  mkdir -p /tmp/custdata/archive
+  816  ls
+  817  cd ..
+  818  ls
+  819  gzip process/custmerged.txt 
+  820  cd process/
+  821  ls -l
+  822  mv custmerged.txt.gz ../archive/
+  823  ls
+  824  rm process
+  825  cd ..
+  826  rm process/
+  827  rm -R process/
+  828  ls
+  829  cd /
+  830  sudo useradd swetha
+  831  sudo passwd swetha
+  832  sudo swetha
+  833  sudo su swetha
+  834  vi /home/swetha/tmp/swethafile.txt
+  835  sudo usermod -a -G hduser swetha 
+  836  cd /
+  837  cd tmp/
+  838  ls
+  839  vi swethafile.txt 
+  840  cd -
+  841  cd ~
+  842  sudo adduser bala
+  843  sudo adduser swethabala
+  844  sudo passwd swethabala 
+  845  sudo su swethabala
+  846  vi /tmp/swethabalafile.txt 
+  847  sudo su swetha
+  848  echo $welcomemessage="Welcome aspirants"
+  849  echo $welcomemessage
+  850  welcomemessage="Welcome aspirants"
+  851  echo $welcomemessage 
+  852  cd ~./bashrc
+  853  cd ~/.bashrc
+  854  cd /
+  855  cd ~/.bashrc
+  856  ~./bashrc
+  857  ls
+  858  ls -a
+  859  cd var/
+  860  ls -la
+  861  cd ..
+  862  cd etc/
+  863  ls -a
+  864  cd bashrc
+  865  cat bashrc
+  866  cd ~
+  867  ls
+  868  ls -la
+  869  vi .bashrc
+  870  export welcomemessage="Welcome Aspirants"
+  871  echo $welcomemessage
+  872  export welcomemessage1="Welcome Aspirants"
+  873  echo $welcomemessage1
+  874  cat .bashrc
+  875  export welcomemessage2="Welcome Aspirants" >> .bashrc
+  876  cat .bashrc
+  877  echo "export welcomemessage3=Welcome Aspirants" >> .bashrc
+  878  cat .bashrc
+  879  echo $welcomemessage3
+  880  echo $TRAINER
+  881  echo $welcomemessage3
+  882  sudo su swethabala
+  883  echo $welcomemessage
+  884  echo $welcomemessage3
+  885  echo $path
+  886  echo $PATH
+  887  vi .bashrc
+  888  history
+  889  history > usecasecompletedcommand.txt
+  890  ls
+  891  cat usecasecompletedcommand.txt 
+  892  hadoop version
+  893  pwd
+  894  hadoop version
+  895  hadoop fs -df hdfs:/
+  896  hadoop fs -df
+  897  jps
+  898  start-all.sh
+  899  jps
+  900  hadoop fs -dh
+  901  hadoop fs -df hdfs:/
+  902  hadoop fs -df -h
+  903  hadoop fs -count hdfs:/
+  904  ls -ls
+  905  hadoop fs -count hdfs:/
+  906  hadoop fs -mkdir /user/hduser/hadoop
+  907  echo $?
+  908  hadoop fs -mkdir -p /user/hduser/dir1/dir2
+  909  hadoop fs -mkdir -help
+  910  hadoop fs -mkdir -usage
+  911  hadoop fs -usage
+  912  hadoop fs mkdir -help
+  913  hadoop fs -mkdir --help
+  914  hadoop fs -cp -help
+  915  echo "Sample file creation" > sample.txt
+  916  hadoop fs -put /home/hduser/sample.txt /user/hduser/hadoop/
+  917  hadoop fs -mkdir -p /user/hduser/hadoop/dir1/dir2
+  918  hadoop fs -rm /user/hduser/hadoop/sample.txt
+  919  hadoop fs -copyToLocal ~/sample.txt /user/hduser/hadoop/
+  920  hadoop fs -copyFromLocal ~/sample.txt /user/hduser/hadoop/
+  921  hadoop fs -ls /user/hduser/hadoop
+  922  hadoop fs -put /home/hduser/mrdata /user/hduser/hadoop
+  923  mkdir mrdata
+  924  ls
+  925  hadoop fs -put /home/hduser/mrdata /user/hduser/hadoop
+  926  hadoop fs -ls /user/hduser/hadoop
+  927  hadoop fs -mkdir hadoop/test
+  928  hadoop fs -ls
+  929  hadoop fs hadoop/ -ls
+  930  hadoop fs -put ~/sample.txt hadoop/test
+  931  hadoop fs -rm -r hadoop/test
+  932  hadoop fs -mkdir hadoop/test
+  933  hadoop fs -put ~/sample.txt hadoop/test
+  934  hadoop fs -copyToLocal hadoop/test/sample.txt /tmp
+  935  ls -l /tmp/
+  936  cd /tmp/
+  937  ls
+  938  ls -l
+  939  cd ..
+  940  hadoop fs -copyToLocal hadoop/test/sample.txt /tmp/sampletest.txt
+  941  hadoop fs -copyToLocal hadoop/test/sample.txt /tmp/sample1test.txt
+  942  cd /tmp/
+  943  ls -l
+  944  cd ..
+  945  hadoop fs -rm hadoop/*.txt
+  946  hadoop fs -ls
+  947  echo "Creating a test file" > test.txt
+  948  pwd
+  949  cd ~
+  950  pwd
+  951  echo "Creating a test file" > test.txt
+  952  hadoop fs -ls
+  953  hadoop fs -put test.txt /user/hduser/
+  954  hadoop fs -ls
+  955  hadoop fs -cp /user/hduser/test.txt /user/hduser/test2.txt
+  956  hadoop fs -ls
+  957  hadoop fs -get test2.txt /home/hduser/test3.txt
+  958  ls 
+  959  hadoop fs -put test2.txt
+  960  hadoop fs -ls
+  961  hadoop fs -tail test2.txt
+  962  history
+  963  history > hdfscommands.txt
