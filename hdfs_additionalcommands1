@@ -1,0 +1,1001 @@
+   45  ls -F wd32dir | grep -v /
+   46  ls -R wd32dir | grep -v /
+   47  ls -R wd32dir | grep /
+   48  exit
+   49  pwd
+   50  ls -lart
+   51  ls -lrt
+   52  ls -lt
+   53  cat customer.java 
+   54  ls -lt
+   55  clear
+   56  pwd
+   57  mkdir wd32dir/dir2
+   58  mkdir wd32dir
+   59  mkdir wd32dir/dir1
+   60  mkdir wd32dir/dir2
+   61  echo hello > wd32dir/file1
+   62  echo hello > wd32dir/file2
+   63  echo hello > wd32dir/file3.txt
+   64  ls -lrtR wd32dir/
+   65  ls -F wd32dir/
+   66  ls -F wd32dir
+   67  ls -lrtR wd32dir
+   68  ls -F
+   69  ls -l
+   70  du -kh wd32dir/
+   71  ls -F wd32dir | grep /
+   72  ls -lrtR wd32dir | grep /
+   73  ls -lrtR wd32dir | grep -v /
+   74  ls -F wd32dir | grep -v /
+   75  ls -R
+   76  ls -R wd32dir/
+   77  ls -R wd32dir/ | grep -v /
+   78  ls -R wd32dir/ | grep /
+   79  ls -R wd32dir/ | grep -v /
+   80  ls -F wd32dir | grep -v / | wc -l
+   81  ls -F wd32dir | grep -v / | wc
+   82  ls -F wd32dir | grep / | wc -l
+   83  ls
+   84  ls -F wd32dir/
+   85  mkdir wd32dir/dir1/sDir1
+   86  cd wd32dir/
+   87  ls
+   88  touch skc
+   89  touch skc.txt
+   90  ls
+   91  ls -l
+   92  vi wd32file.txt
+   93  cat wd32file.txt 
+   94  echo "Hello, Good Morningcat wd32file.txt 1" > fileInHDD.txt
+   95  cat fileInHDD.txt 
+   96  ls -lrt > listoffile_wd32dir.txt
+   97  cat listoffile_wd32dir.txt 
+   98  ls > file.txt
+   99  ls | wc -l >> file.txt
+  100  cat file.txt 
+  101  cp -p file.txt file1.txt
+  102  cat file1.txt 
+  103  ls -l
+  104  touch skc
+  105  ls -l
+  106  ls -ltr
+  107  cat wd32file.txt
+  108  vi wd32file.txt 
+  109  cat wd32file.txt 
+  110  vi wd32file.txt 
+  111  grep important wd32file.txt 
+  112  grep linux wd32file.txt 
+  113  vi wd32file.txt 
+  114  wc -l wd32file.txt 
+  115  echo -n "password123$" > password
+  116  ls -ltr
+  117  history
+  118  Ifconfig
+  119  IFConfig
+  120  ifconfig
+  121  cd wd32dir/
+  122  ls -ltr
+  123  vi wd32file.txt 
+  124  pwd
+  125  cd wd32dir/
+  126  pwd
+  127  ls -ltr
+  128  vi wd32file.txt 
+  129  cd wd32dir/
+  130  ls -ltr
+  131  vi wd32file.txt 
+  132  wc -l
+  133  wc -l wd32file.txt 
+  134  grep -n linux wd32file.txt 
+  135  cd ..
+  136  ls 
+  137  ls -lart
+  138  echo "export TRAINER=Irfan" ~/.bashrc 
+  139  echo $TRAINER
+  140  echo "export TRAINER=Irfan" >> ~/.bashrc 
+  141  echo $TRAINER
+  142  vi ~/.bashrc
+  143  echo $TRAINER
+  144  cat ~/.bashrc
+  145  echo $Trainer
+  146  echo TRAINER
+  147  echo $TRAINER
+  148  echo $COMPANY
+  149  echo $TRAINER
+  150  vi ~/.bashrc
+  151  cd wd32dir/
+  152  ls -ltr
+  153  vi wd32file.txt 
+  154  sed -i 1d wd32file.txt 
+  155  head -1 wd32file.txt 
+  156  head wd32file.txt 
+  157  sed -i 1d wd32file.txt 
+  158  head wd32file.txt 
+  159  cd ..
+  160  ls -lart
+  161  wc -l customer.java 
+  162  wc -l ~/.bash_history 
+  163  cd wd32dir/
+  164  cp ~/hive/data/cust
+  165  cp ~/customer.java 
+  166  cp -p ~/customer.java 
+  167  cp ~/customer.java  customer.java
+  168  ls -lrt
+  169  customer.java >> customer.java
+  170  cat customer.java ?? customer.java 
+  171  cat customer.java >> customer.java 
+  172  cat customer.java 
+  173  cat ~/hive/data/cust
+  174  cd ~/hive/data/
+  175  ls
+  176  cat custs
+  177  cd ..
+  178  cd wd32dir/
+  179  cp -p ~/hive/data/custs custs
+  180  ls
+  181  ls -ltr
+  182  wc -l custs 
+  183  cp -p custs custs1
+  184  ls -ltr
+  185  cat custs >> custs1
+  186  wc -l custs1
+  187  cat -n custs1
+  188  view custs1
+  189  more custs1
+  190  head -10 custs1 | tail -5 custs1
+  191  vi custs1
+  192  head -10 custs1 | tail -5 custs1
+  193  vi wd32file.txt 
+  194  vi testfile.txt
+  195  head -15 testfile.txt  | tail -5 testfile.txt 
+  196  vi testfile.txt 
+  197  head -10 testfile.txt  | tail -5 testfile.txt 
+  198  head -10 testfile.txt  | tail -5
+  199  vi testfile.txt 
+  200  head -20 testfile.txt | tail -5
+  201  vi testfile.txt 
+  202  head -15 testfile.txt | tail -6
+  203  vi wd32file.txt 
+  204  history
+  205  ls -lrt
+  206  cd /
+  207  pwd
+  208  cd /home/hduser/
+  209  ls
+  210  cd ..
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd home/
+  215  ls
+  216  cd hduser/
+  217  cd wd32dir/
+  218  ls
+  219  cd dir2
+  220  ls
+  221  cd .
+  222  cd ..
+  223  cd dir1
+  224  ls
+  225  cd sdi
+  226  cd sDir1/
+  227  ls
+  228  cd /home/hduser/wd32dir/wd32file.txt wd32file.txt
+  229  cp /home/hduser/wd32dir/wd32file.txt wd32file.txt
+  230  ls
+  231  cp wd32file.txt wd32file_v1.txt 
+  232  ls
+  233  ls -ltr
+  234  cd ..
+  235  cp -p wd32file.txt dir1/sDir1/wd32file_v2.txt
+  236  ls
+  237  ls -lrt
+  238  cd dir1/sDir1/
+  239  ls -lrt
+  240  mv wd32file_v2.txt /home/hduser/wd32dir/
+  241  cd ..
+  242  ls -lrt
+  243  ls -ltr
+  244  rm file1
+  245  ls -ltr
+  246  cd dir2
+  247  ls
+  248  cp -p /home/hduser/wd32dir/file3.txt file3.txt
+  249  ls
+  250  cd ..
+  251  ls
+  252  rm /home/hduser/wd32dir/dir2/file3.txt 
+  253  cd dir2/
+  254  ls
+  255  cd ..
+  256  cd dir1/sDir1/
+  257  ls
+  258  rm wd32file*.txt
+  259  ls
+  260  cd ..
+  261  ls
+  262  more wd32file.txt 
+  263  view wd32file.txt 
+  264  grep linux wd32file.txt | wc -l
+  265  grep Linux wd32file.txt | wc -l
+  266  grep L wd32file.txt | wc -x
+  267  grep L wd32file.txt | wc -c
+  268  grep L wd32file.txt | wc -w
+  269  grep L wd32file.txt | wc -lc
+  270  grep L wd32file.txt | wc -lwc
+  271  cd ..
+  272  ls -a
+  273  cd .bashrc
+  274  cd ~/.bashrc
+  275  ls -a
+  276  cd .bashrc
+  277  cd /.bashrc
+  278  cat .bashrc
+  279  echo $COMPANY
+  280  echo $TRAINER
+  281  echo "TRAINER1=SWE" >> .bashrc
+  282  cat .bashrc
+  283  echo "export LISTDETAIL=ls -ltr" >> .bashrc
+  284  cat .bashrc
+  285  echo $LISTDETAIL
+  286  vi .bashrc
+  287  cd /home/hduser/wd32dir/
+  288  ls
+  289  vi wd32file.txt 
+  290  ls -ltr
+  291  sudo adduser bala
+  292  ls -ltr
+  293  ls -a
+  294  pwd
+  295  cd ..
+  296  ls -a
+  297  ls -ltr
+  298  cd bala/
+  299  ls
+  300  cd hduser/
+  301  ls
+  302  ls -a
+  303  cd ..
+  304  cd -a
+  305  ls -a
+  306  cd hduser/
+  307  cd ..
+  308  ls
+  309  cd etc/
+  310  ls
+  311  cat passwd
+  312  ls
+  313  cd ..
+  314  cd home/hduser/
+  315  cd /
+  316  ls
+  317  cd usr/
+  318  ls
+  319  cd etc
+  320  ls
+  321  cd ..
+  322  cd bin
+  323  ls
+  324  cd ..
+  325  cd sbin/
+  326  ls
+  327  man
+  328  man ls
+  329  cat hosts
+  330  hosts
+  331  cd ..
+  332  cd etc/
+  333  hosts
+  334  cat hosts
+  335  cd ..
+  336  cd usr/local/
+  337  ls
+  338  cd /
+  339  cd ~
+  340  pwd
+  341  cd /
+  342  etc
+  343  cd etc/
+  344  ls
+  345  cd group
+  346  cat group
+  347  cat sudoers
+  348  df
+  349  df -h
+  350  /
+  351  pwd
+  352  ~
+  353  cd /
+  354  pwd
+  355  cd ~
+  356  pwd
+  357  cd ~
+  358  cd .
+  359  cd /
+  360  cd ~
+  361  cd /
+  362  cd .
+  363  cd ~
+  364  cd /
+  365  pwd
+  366  cd ~
+  367  ls
+  368  cd wd32dir/
+  369  ls
+  370  cat testfile.txt 
+  371  ls
+  372  cd ..
+  373  cd /hive/data/
+  374  cd /home/hduser/hive/data/
+  375  ls
+  376  head -10 custs
+  377  cd..
+  378  cd ~
+  379  head -10 /home/hduser/hive/data/custs > cust1.txt
+  380  ls
+  381  cat cust1.txt 
+  382  tail -10 /home/hduser/hive/data/custs > cust2.txt
+  383  cat cust2.txt 
+  384  ls
+  385  history
+  386  vi samplefile.txt
+  387  ls
+  388  vi samplefile.txt 
+  389  echo cust2.txt > custmerged.txt
+  390  ls
+  391  echo cust1.txt >> custmerged.txt 
+  392  cat custmerged.txt 
+  393  rm custmerged.txt 
+  394  cust2.txt > custmerged.txt
+  395  ls
+  396  rm custmerged.txt
+  397  ls
+  398  cat cust2.txt > custmerged.txt
+  399  cat cust1.txt >> custmerged.txt
+  400  cat custmerged.txt 
+  401  view cust2.txt > custmergred1.txt
+  402  history
+  403  echo $welcomemessage
+  404  echo $welcomemessage3
+  405  cat .bashrc
+  406  echo $welcomemessage3
+  407  ls
+  408  wc -l custmerged.txt 
+  409  cat custmerged.txt 
+  410  wc -l custmerged.txt >> custmerged.txt 
+  411  cat custmerged.txt 
+  412  echo custno,firstname,lastname,age,profession > temp1.txt
+  413  cat temp1.txt 
+  414  cat custmerged.txt >> temp1.txt 
+  415  cat temp1.txt 
+  416  mv temp1.txt custmerged.txt 
+  417  ls
+  418  cat custmerged.txt 
+  419  grep pilot custmerged.txt | wc -w
+  420  grep Pilot custmerged.txt | wc -w
+  421  grep Pilot custmerged.txt | wc -l
+  422  sed -i '%s/Pilot/Aircraft Pilot/g' custmerged.txt 
+  423  sed -i 's/Pilot/Aircraft Pilot/g' custmerged.txt 
+  424  cat custmerged.txt 
+  425  wc -lc custmerged.txt
+  426  man sed
+  427  man ls
+  428  ls -l
+  429  ls -lrt
+  430  ls -lt
+  431  ls -lrt
+  432  ls -lrt | tail -1
+  433  cp -p custmerged.txt custmergedcopied.txt
+  434  ls -lrt
+  435  ls -lrt | tail -2
+  436  history
+  437  ls
+  438  cd /
+  439  ls
+  440  cd ~
+  441  ls
+  442  cd /
+  443  cd ~
+  444  cd /tmp/
+  445  mkdir ~/src/custdata
+  446  mkdir -p ~/src/custdata
+  447  cd /home/hduser/src/custdata/
+  448  cd /home
+  449  cd hduser/src/custdata
+  450  cp /home/hduser/custmerged.txt .
+  451  ls
+  452  cp /home/hduser/custmerged.txt
+  453  cd -
+  454  cd hduser/src
+  455  mv custdata customerdata
+  456  ls
+  457  mv customerdata /tmp/custdata/process
+  458  man mv
+  459  mv -p customerdata /tmp/custdata/process
+  460  mv -f customerdata /tmp/custdata/process
+  461  mkdir -p /tmp/custdata/process
+  462  mv customerdata/ /tmp/custdata/process
+  463  ls
+  464  cd /tmp/custdata/process/
+  465  ls
+  466  mv /tmp/custdata/process/customerdata/ ~/src/
+  467  ls
+  468  mv ~/src/customerdata/custmerged.txt .
+  469  ls
+  470  cd ..
+  471  rm process/
+  472  rm -R process/
+  473  ls
+  474  cd /
+  475  mkdir -p ~/src/custdata
+  476  cd ~/src/custdata/
+  477  ls
+  478  cp /home/hduser/custmerged.txt .
+  479  cd..
+  480  cd ..
+  481  mv custdata/ /tmp/custdata/process
+  482  cd /tmp/custdata/
+  483  ls
+  484  cd process/
+  485  ls
+  486  touch success
+  487  ls
+  488  ls -l
+  489  mkdir -p /tmp/custdata/archive
+  490  ls
+  491  cd ..
+  492  ls
+  493  gzip process/custmerged.txt 
+  494  cd process/
+  495  ls -l
+  496  mv custmerged.txt.gz ../archive/
+  497  ls
+  498  rm process
+  499  cd ..
+  500  rm process/
+  501  rm -R process/
+  502  ls
+  503  cd /
+  504  sudo useradd swetha
+  505  sudo passwd swetha
+  506  sudo swetha
+  507  sudo su swetha
+  508  vi /home/swetha/tmp/swethafile.txt
+  509  sudo usermod -a -G hduser swetha 
+  510  cd /
+  511  cd tmp/
+  512  ls
+  513  vi swethafile.txt 
+  514  cd -
+  515  cd ~
+  516  sudo adduser bala
+  517  sudo adduser swethabala
+  518  sudo passwd swethabala 
+  519  sudo su swethabala
+  520  vi /tmp/swethabalafile.txt 
+  521  sudo su swetha
+  522  echo $welcomemessage="Welcome aspirants"
+  523  echo $welcomemessage
+  524  welcomemessage="Welcome aspirants"
+  525  echo $welcomemessage 
+  526  cd ~./bashrc
+  527  cd ~/.bashrc
+  528  cd /
+  529  cd ~/.bashrc
+  530  ~./bashrc
+  531  ls
+  532  ls -a
+  533  cd var/
+  534  ls -la
+  535  cd ..
+  536  cd etc/
+  537  ls -a
+  538  cd bashrc
+  539  cat bashrc
+  540  cd ~
+  541  ls
+  542  ls -la
+  543  vi .bashrc
+  544  export welcomemessage="Welcome Aspirants"
+  545  echo $welcomemessage
+  546  export welcomemessage1="Welcome Aspirants"
+  547  echo $welcomemessage1
+  548  cat .bashrc
+  549  export welcomemessage2="Welcome Aspirants" >> .bashrc
+  550  cat .bashrc
+  551  echo "export welcomemessage3=Welcome Aspirants" >> .bashrc
+  552  cat .bashrc
+  553  echo $welcomemessage3
+  554  echo $TRAINER
+  555  echo $welcomemessage3
+  556  sudo su swethabala
+  557  echo $welcomemessage
+  558  echo $welcomemessage3
+  559  echo $path
+  560  echo $PATH
+  561  vi .bashrc
+  562  history
+  563  history > usecasecompletedcommand.txt
+  564  ls
+  565  cat usecasecompletedcommand.txt 
+  566  hadoop version
+  567  pwd
+  568  hadoop version
+  569  hadoop fs -df hdfs:/
+  570  hadoop fs -df
+  571  jps
+  572  start-all.sh
+  573  jps
+  574  hadoop fs -dh
+  575  hadoop fs -df hdfs:/
+  576  hadoop fs -df -h
+  577  hadoop fs -count hdfs:/
+  578  ls -ls
+  579  hadoop fs -count hdfs:/
+  580  hadoop fs -mkdir /user/hduser/hadoop
+  581  echo $?
+  582  hadoop fs -mkdir -p /user/hduser/dir1/dir2
+  583  hadoop fs -mkdir -help
+  584  hadoop fs -mkdir -usage
+  585  hadoop fs -usage
+  586  hadoop fs mkdir -help
+  587  hadoop fs -mkdir --help
+  588  hadoop fs -cp -help
+  589  echo "Sample file creation" > sample.txt
+  590  hadoop fs -put /home/hduser/sample.txt /user/hduser/hadoop/
+  591  hadoop fs -mkdir -p /user/hduser/hadoop/dir1/dir2
+  592  hadoop fs -rm /user/hduser/hadoop/sample.txt
+  593  hadoop fs -copyToLocal ~/sample.txt /user/hduser/hadoop/
+  594  hadoop fs -copyFromLocal ~/sample.txt /user/hduser/hadoop/
+  595  hadoop fs -ls /user/hduser/hadoop
+  596  hadoop fs -put /home/hduser/mrdata /user/hduser/hadoop
+  597  mkdir mrdata
+  598  ls
+  599  hadoop fs -put /home/hduser/mrdata /user/hduser/hadoop
+  600  hadoop fs -ls /user/hduser/hadoop
+  601  hadoop fs -mkdir hadoop/test
+  602  hadoop fs -ls
+  603  hadoop fs hadoop/ -ls
+  604  hadoop fs -put ~/sample.txt hadoop/test
+  605  hadoop fs -rm -r hadoop/test
+  606  hadoop fs -mkdir hadoop/test
+  607  hadoop fs -put ~/sample.txt hadoop/test
+  608  hadoop fs -copyToLocal hadoop/test/sample.txt /tmp
+  609  ls -l /tmp/
+  610  cd /tmp/
+  611  ls
+  612  ls -l
+  613  cd ..
+  614  hadoop fs -copyToLocal hadoop/test/sample.txt /tmp/sampletest.txt
+  615  hadoop fs -copyToLocal hadoop/test/sample.txt /tmp/sample1test.txt
+  616  cd /tmp/
+  617  ls -l
+  618  cd ..
+  619  hadoop fs -rm hadoop/*.txt
+  620  hadoop fs -ls
+  621  echo "Creating a test file" > test.txt
+  622  pwd
+  623  cd ~
+  624  pwd
+  625  echo "Creating a test file" > test.txt
+  626  hadoop fs -ls
+  627  hadoop fs -put test.txt /user/hduser/
+  628  hadoop fs -ls
+  629  hadoop fs -cp /user/hduser/test.txt /user/hduser/test2.txt
+  630  hadoop fs -ls
+  631  hadoop fs -get test2.txt /home/hduser/test3.txt
+  632  ls 
+  633  hadoop fs -put test2.txt
+  634  hadoop fs -ls
+  635  hadoop fs -tail test2.txt
+  636  history
+  637  history > hdfscommands.txt
+  638  cat hdfscommands.txt 
+  639  jps
+  640  stop-all.sh
+  641  jps
+  642  start-dfs.sh
+  643  jps
+  644  pwd
+  645  hadoop fs -pwd
+  646  hadoop fs -usage
+  647  hadoop fs -cat /tmp/data1
+  648  hadoop fs -ls /tmp/
+  649  hadoop fs /tmp/ -ls
+  650  /tmp/ -ls -l
+  651  /tmp/ ls -l
+  652  ls -l
+  653  cd /tmp/
+  654  ls
+  655  cat sample.txt 
+  656  hadoop fs -cat /tmp/sample.txt 
+  657  cd ..
+  658  hadoop fs -ls /user/hduser
+  659  hadoop fs -ls /tmp/
+  660  hadoop fs -put somefile.txt
+  661  hadoop fs -ls .
+  662  hadoop fs -cat somefile.txt
+  663  hadoop fs -put somefile.txt
+  664  jps
+  665  hadoop fs -put somefile.txt
+  666  hadoop fs -ls
+  667  hadoop fs -put somelinuxfile.txt /tmp
+  668  hadoop fs -cat somefile.txt
+  669  hadoop fs -cat /tmp/somelinuxfile.txt
+  670  pwd
+  671  cd ..
+  672  pwd
+  673  hadoop fs -ls
+  674  hadoop fs -ls /tmp/somelinuxfile.txt
+  675  cd ~
+  676  pwd
+  677  hadoop fs -put somelinuxfile.txt /tmp
+  678  hadoop fs -cat /tmp/somelinuxfile.txt
+  679  hdfs dfs -mkdir wd32dir
+  680  hadoop fs somefile.txt wd32dir/
+  681  hadoop fs -put somefile.txt wd32dir/
+  682  cd /tmp/
+  683  ls
+  684  cd ~
+  685  pwd
+  686  ls
+  687  echo "Creating some text file" > somefile.txt
+  688  echo "Createing some Linux file" > somelinuxfile.txt
+  689  ls
+  690  cd /tmp/
+  691  ls
+  692  cd ..
+  693  cd /tmp/
+  694  cat someliunxfile.txt
+  695  cd ..
+  696  cd /
+  697  cat /tmp/somelinuxfile.txt
+  698  stop-dfs.sh
+  699  jps
+  700  start-dfs.sh
+  701  jps
+  702  vi learn_shell.sh
+  703  bash learn_shell.sh 
+  704  vi learn_shell.sh 
+  705  vi learn_shell.sh bala morning
+  706  bash learn_shell.sh bala morning
+  707  vi learn_shell.sh 
+  708  bash learn_shell.sh bala morning
+  709  vi learn_shell.sh 
+  710  bash learn_shell.sh bala morning
+  711  vi learn_shell.sh 
+  712  bash learn_shell.sh bala morning
+  713  bash learn_shell.sh bala
+  714  bash learn_shell.sh bala evening
+  715  vi learn_shell.sh 
+  716  bash learn_shell.sh bala evening
+  717  vi learn_shell.sh 
+  718  bash learn_shell.sh bala evening
+  719  stop-dfs.sh
+  720  cd /tmp/
+  721  cat sfm_2023121712.log 
+  722  ls
+  723  ls *cloud
+  724  *cloud
+  725  ls
+  726  cd /clouddata/
+  727  ls
+  728  cd clouddata/
+  729  ls
+  730  cd ..
+  731  cat sfm_202312171.log
+  732  cat sfm_202312171
+  733  ls
+  734  cat sfm_2023121712
+  735  cat sfm_2023121712.log 
+  736  cat sfm_2023121713.log 
+  737  jps
+  738  start-all.sh
+  739  ls -ltr
+  740  cat learn_shell.sh 
+  741  ls
+  742  mv learn_shell.sh practice_shell.sh
+  743  ls
+  744  vi learn_shell.sh
+  745  bash learn_shell.sh 
+  746  ls
+  747  bash learn_shell.sh 
+  748  cat learn_shell.sh 
+  749  vi learn_shell.sh 
+  750  cat learn_shell.sh 
+  751  bash learn_shell.sh 
+  752  ./learn_shell.sh
+  753  jps
+  754  ls
+  755  bash practice_shell.sh 
+  756  vi learn_shell.sh 
+  757  bash learn_shell.sh 
+  758  ./learn_shell.sh
+  759  vi learn_shell.sh 
+  760  bash learn_shell.sh 
+  761  cat learn_shell.sh 
+  762  vi learn_shell.sh 
+  763  bash learn_shell.sh 
+  764  vi learn_shell.sh 
+  765  bash learn_shell.sh 
+  766  cd /tmp/
+  767  ls
+  768  cat sfm_2023121712.log 
+  769  vi sfm_2023121712.log 
+  770  cd ~
+  771  cat learn_shell.sh 
+  772  vi learn_shell.sh 
+  773  bash learn_shell.sh 
+  774  bash missing the argument to execute the script, usage: bash /home/hduser/learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv"
+  775  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  776  vi learn_shell.sh 
+  777  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  778  vi learn_shell.sh 
+  779  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  780  vi learn_shell.sh 
+  781  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  782  stop-all.sh
+  783  cd /tmp/
+  784  ls
+  785  cd clouddata/
+  786  ls
+  787  tail -l creditcard_insurance_2023121811.log 
+  788  tail -1 creditcard_insurance_2023121811.log 
+  789  tail -1 creditcard_insurance_2023121811.log | awk -F'|' '{print $2}'
+  790  rm creditcard_insurance_2023121811.log 
+  791  ls
+  792  cat creditcard_insurance_2023121811 | wc -l
+  793  rm creditcard_insurance_2023121811 
+  794  ls
+  795  tail -1 creditcard_insurance_2023121812 | awk -F'|' '{print $2}'
+  796  cat creditcard_insurance_2023121812 | wc -l
+  797  cd ~
+  798  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  799  jps
+  800  start-all.sh
+  801  jps
+  802  vi learn_shell.sh 
+  803  bash learn_shell.sh 
+  804  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  805  vi learn_shell.sh 
+  806  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  807  vi learn_shell.sh 
+  808  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  809  vi learn_shell.sh 
+  810  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  811  vi learn_shell.sh 
+  812  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  813  vi learn_shell.sh 
+  814  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  815  vi learn_shell.sh 
+  816  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  817  vi learn_shell.sh 
+  818  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  819  vi learn_shell.sh 
+  820  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  821  cd /tmp/clouddata/
+  822  ls
+  823  cd ..
+  824  ls
+  825  sfm*
+  826  ls sfm*
+  827  cd clouddata/
+  828  vi creditcard_insurance_2023121812 
+  829  ls
+  830  mv creditcard_insurance_2023121812 creditcard_insurance_2023121813
+  831  ls
+  832  rm creditcard_insurance_*
+  833  ls
+  834  cd ..
+  835  ls sfm*
+  836  cd clouddata/
+  837  ls
+  838  vi learn_shell.sh 
+  839  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  840  vi learn_shell.sh 
+  841  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  842  vi learn_shell.sh 
+  843  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  844  vi learn_shell.sh 
+  845  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  846  bash learn_shell.sh 
+  847  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  848  vi learn_shell.sh 
+  849  bash learn_shell.sh https://s3.amazonaws.com/inceptez.data/insurance/insuranceinfo.csv
+  850  vi learn_shell.sh 
+  851  stop-all.sh
+  852  ls | wc -l
+  853  ls | wc
+  854  ls
+  855  jps
+  856  start-all.sh
+  857  jps
+  858  hadoop fs -ls
+  859  hadoop fs -df
+  860  hadoop fs -df -h
+  861  hadoop fs -df -h hdfs://
+  862  hadoop fs -count 
+  863  hadoop fs -count .
+  864  hadoop fs -count hdfs://
+  865  hadoop fs hdfs://
+  866  hadoop fs /user/hduser/
+  867  hadoop fs -get hdfs://
+  868  hadoop fs -ls
+  869  hadoop fs -ls -count
+  870  hadoop fs -count
+  871  hadoop fs -count hdfs:/
+  872  hadoop fs -ls /user/hduser/
+  873  stop-all.sh
+  874  pwd
+  875  echo "Sample File Created" > sample.txt
+  876  ls
+  877  man cp
+  878  mkdir -p test/test1
+  879  ls
+  880  echo "tes1 creation" > test/test1/
+  881  echo "tes1 creation" > test/test1/test1.txt
+  882  echo "test creation" > test/test.txt
+  883  cat samplecopy.txt 
+  884  ls -ltr
+  885  cd /tmp/
+  886  ls
+  887  cd clouddata/
+  888  ls
+  889  cd ..
+  890  cd ~
+  891  ls
+  892  cat custmerged.txt 
+  893  ls
+  894  cat cust1.txt 
+  895  cd /tmp/
+  896  ls
+  897  grep 1073741841
+  898  cd /usr/local/hadoop_store/hdfs/datanode/current/
+  899  ls
+  900  cd BP-2071535843-127.0.0.1-1701361701414/
+  901  ls
+  902  cd current/
+  903  ls
+  904  cd finalized/subdir0/subdir0/
+  905  ls
+  906  cat blk_10737418_1073741841
+  907  cat blk_1073741841
+  908  mv blk_1073741841 blk_107374184444
+  909  ls
+  910  vi blk_107374184444
+  911  mv blk_107374184444 blk_1073741841
+  912  vi blk_1073741841
+  913  cd ~
+  914  ls
+  915  jps
+  916  start-all.sh
+  917  jps
+  918  hadoop version
+  919  hadoop fs -df -h
+  920  hadoop fs -count /user/hduser
+  921  hadoop fs -put sample.txt /user/hduser/hadoop/
+  922  hadoop fs -copyFromLocal -f ~/sample.txt /user/hduser/hadoop/samplecopy.txt
+  923  hadoop fs -usage -copyFromLocal
+  924  hadoop fs -usage
+  925  hadoop fs -copyFromLocal -usage
+  926  hadoop fs -copyFromLocal --usage
+  927  hadoop fs -usage
+  928  hadoop fs -copyFromLocal -help
+  929  hdfs dfs -copyFromLocal -help
+  930  hdfs dfs -copyFromLocal -usage
+  931  hdfs dfs copyFromLocal -usage
+  932  hadoop fs -usage copyFromLocal
+  933  hadoop fs copyFromLocal -help
+  934  hadoop fs -usage put
+  935  hadoop fs -usage
+  936  hadoop fs copyFromLocal -usage
+  937  hadoop fs copyFromLocal -help
+  938  hadoop fs -copyFromLocal -help
+  939  hadoop fs -ls /user/hduser/hadoop/
+  940  hadoop fs -rm /user/hduser/hadoop/samplecopy.txt
+  941  hadoop fs -ls /user/hduser/hadoop/
+  942  hadoop fs -put ~/test /user/hduser/hadoop/
+  943  hadoop fs -rm test
+  944  hadoop fs -rm /user/hduser/hadoop/test
+  945  hadoop fs -rm -R /user/hduser/hadoop/test
+  946  hadoop fs -get /user/hduser/hadoop/sample.txt ~/samplecopy.txt
+  947  hadoop fs -cp /user/hdser/hadoop/sample.txt /user/hduser/hadoop/mrdata/
+  948  hadoop fs -cp /user/hdser/hadoop/sample.txt /user/hduser/hadoop/mrdata/samplecopy.txt
+  949  hadoop fs -cp /user/hdser/hadoop/sample.txt /user/hduser/hadoop/mrdata
+  950  hadoop fs -cp /user/hduser/hadoop/sample.txt /user/hduser/hadoop/mrdata
+  951  hadoop fs -put /tmp/clouddata/creditcard_insurance_2023121812 /user/hduser/hadoop/
+  952  hadoop fs -tail /user/hduser/hadoop/creditcard_insurance_2023121812
+  953  hadoop fs -tail /user/h -1 /user/hadoop/creditcard_insurance_2023121812
+  954  hadoop fs -chmod 666 /user/hduser/hadoop/sample.txt
+  955  hadoop fs -cat /user/hduser/hadoop/sample.txt
+  956  hadoop fs -moveFromLocal custmerged.txt /user/hduser/hadoop/
+  957  hadoop fs -appendToFile cust1.txt /user/hduser/hadoop/cutmerged.txt
+  958  hadoop fs -cat /user/hduser/custmerged.txt
+  959  hadoop fs -cat /user/hduser/hadoop/custmerged.txt
+  960  hadoop fs -appendToFile cust1.txt /user/hduser/hadoop/custmerged.txt
+  961  hadoop fs -cat /user/hduser/hadoop/custmerged.txt
+  962  hadoop fs -touchz success.txt
+  963  hadoop fs -touchz /user/hduser/hadoop/success.txt
+  964  hadoop fs -du -s -h hadoop
+  965  hadoop fs - /
+  966  hadoop fsck - /
+  967  hadoop fsck - /hadoop/
+  968  hadoop fsck - /user/hduser/hadoop
+  969  hadoop fs -cat /user/hduser/hadoop/custmerged.txt
+  970  hadoop fs -cat /user/hduser/hadoop/custmerged.txt | tail -10
+  971  hadoop fs -cat /user/hduser/hadoop/custmerged.txt | head - 20
+  972  hadoop fs -cat /user/hduser/hadoop/custmerged.txt | head -20
+  973  hadoop fs -getmerge /user/hduser/hadoop/cu*./allmerged.txt
+  974  hadoop fs -getmerge /user/hduser/hadoop/cu*.t /hadoop/allmereged.txt
+  975  hadoop fs -mkdir cust1
+  976  hadoop fs -mkdir cust2
+  977  hadoop fs -cp /hadoop/custmerged.txt /hadoop/cust1
+  978  hadoop fs -cp /hadoop/custmerged.txt /cust1
+  979  hadoop fs -mkdir /hadoop/cust2
+  980  hadoop fs -mkdir /user/hduser/hadoop/cust1
+  981  hadoop fs -mkdir /user/hduser/hadoop/cust2
+  982  hadoop fs -cp /user/hduser/hadoop/custmerged.txt /user/hduser/hadoop/cust1/
+  983  hadoop fs -cp /user/hduser/hadoop/cutmerged.txt /user/hduser/hadoop/cust2/
+  984  hadoop fs -getmerge /user/hduser/cus*./allmerged.txt
+  985  hadoop fs -getmerge /user/hduser/cus*./allmerged.txt /user/hduser/hadoop/
+  986  hadoop fs -getmerge /user/hduser/cus*./ /user/hduser/hadoop/allmeged.txt
+  987  hadoop fs ls /user/hduser/cu*
+  988  hadoop fs -ls /user/hduser/cu*
+  989  hadoop fs getmerge -usage
+  990  hadoop fs -usage
+  991  hadoop fs -getmerge /user/hduser/hadoop/cust*./all_custdata.txt 
+  992  hadoop fs -getmerge /user/hduser/hadoop/cust*./all_custdata.txt /user/hduser/hadoop/
+  993  hadoop fs -getmerge /user/hduser/hadoop/cust*./all_custdata.txt /user/hduser/hadoop/merged.txt
+  994  hadoop fs -getmerge /user/hduser/hadoop/cust*./ /user/hduser/hadoop/merged.txt
+  995  hadoop fs -getmerge /user/hduser/hadoop/cu* ./allmeged.txt
+  996  hadoop fs -getmerge /user/hduser/hadoop/cu* /user/hduser/hadoop/allmeged.txt
+  997  history > hdfspdfcommandspractice.txt
+  998  cat hdfspdfcommandspractice.txt 
+  999  stop-all.sh
+ 1000  jps
+ 1001  start-all.sh
+ 1002  jps
+ 1003  hadoop fs -mkdir /tmp/hdfsusecases
+ 1004  hadoop fs -mkdir -P /tmp/hdfsusecases
+ 1005  hadoop fs -mkdir -p /tmp/hdfsusecases
+ 1006  -test-d
+ 1007  use-test-d
+ 1008  pwd
+ 1009  hadoop fs -mkdir -p /tmp/hdfsusecases/
+ 1010  hadoop fs -ls /tmp/
+ 1011  hadoop fs -cat /tmp/
+ 1012  cd /tmp/
+ 1013  ls
+ 1014  hadoop fs -mkdir /tmp/hdfsusecases
+ 1015  hadoop fs -rm /tmp/
+ 1016  hadoop fs -mkdir -p /tmp/hdfsusecases
+ 1017  hadoop fs -test -d
+ 1018  hadoop fs -test -d /tmp/hdfsusecases
+ 1019  cd /
+ 1020  cd ~
+ 1021  hadoop fs -test -d /tmp/hdfsusecases
+ 1022  hadoop fs -put ~/install/hdfsusecases/NYSE_2020_06_20.txt  /tmp/hdfsusecases
+ 1023  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_20.txt
+ 1024  $?
+ 1025  hdfs dfs -test -d /tmp/hdfsusecases/
+ 1026  hadoop fs -test -d /tmp/hdfsusecases/
+ 1027  hadoop fs -ls -d /tmp/
+ 1028  hadoop fs -ls -d /tmp/hdfsusecases/
+ 1029  hadoop fs -test -d /tmp/hdfsusecases/
+ 1030  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_20.txt
+ 1031  if[ $? -eq 0 ]
+ 1032  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_20.txt
+ 1033  if [ $? -eq 0 ]; then hadoop fs touchz /tmp/hdfsusecases/_SUCCESS; else echo "File not exists in /tmp/hdfsusecases/"; fi
+ 1034  if [ $? -eq 0 ]; then hadoop fs -touchz /tmp/hdfsusecases/_SUCCESS; else echo "File not exists in /tmp/hdfsusecases/"; fi
+ 1035  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_20.txt
+ 1036  if [ $? -eq 0 ]; then hadoop fs -touchz /tmp/hdfsusecases/_SUCCESS; else echo "File not exists in /tmp/hdfsusecases/"; fi
+ 1037  history
+ 1038  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_21.txt
+ 1039  if [ $? -eq 0 ]; then hadoop fs -touchz /tmp/hdfsusecases/_success1; else echo "File not exist in /tmp/hdfsusecases/"; fi
+ 1040  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_20.txt
+ 1041  if [ $? -eq 0 ]; then echo "File exists in /tmp/hdfsusecases; else echo "File not exist in /tmp/hdfsusecases/"; fi
+if [ $? -eq 0 ]; then echo "File exists in /tmp/hdfsusecases; else echo "File not exist in /tmp/hdfsusecases/"; fi
+ 1042  hadoop fs -test -f /tmp/hdfsusecases/NYSE_2020_06_20.txt
+ 1043  if [ $? -eq 0 ]; then echo "File exists in /tmp/hdfsusecases/"; else echo "File not exist in /tmp/hdfsusecases/"; fi
+ 1044  history > hdfs_additionalcommands1
